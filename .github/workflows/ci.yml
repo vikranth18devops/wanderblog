@@ -102,7 +102,7 @@ jobs:
           git diff --cached --quiet || git commit -m "ci: update frontend image to ${{ steps.get_tag.outputs.next_tag }}"
           git push
 
-   # ─────────────────────────────────────────
+   # ───────────────────────────────────────── 
   # BACKEND
   # ─────────────────────────────────────────
   backend:
